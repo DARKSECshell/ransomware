@@ -25,7 +25,7 @@ with open("chave.key", "rb") as key:
 
 secretphrase = "ransomware"
 
-user_phrase = input("coloque a senha para decriptografar seus arquivos:\n")
+user_phrase = input("put the password to decrypt your files:\n")
 
 if user_phrase == secretphrase:
 
@@ -40,7 +40,7 @@ if user_phrase == secretphrase:
 	print ("| v | _| \_| v /`. .'| v_/ | | | _|| v \_/ ")
 	print ("|__/|___\__/_|_\ !_! |_|   |_| |___|__/(_) ")
 
-	print ("PODE LIMPAR AS CALÇAS, SEUS ARQUIVOS FORAM DESCRIPTOGRAFADOS")
+	print ("YOU CAN CLEAN YOUR PANTS, YOUR FILES HAVE BEEN DECRYPTED")
 
 else:
 
